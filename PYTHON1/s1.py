@@ -1,0 +1,12 @@
+a=10
+b=30
+c=a-b
+d=a-b
+e=a*b
+f=b/a
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)
+print(f)
