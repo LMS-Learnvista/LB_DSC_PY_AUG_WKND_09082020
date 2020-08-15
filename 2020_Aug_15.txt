@@ -1,12 +1,12 @@
 
-E:\Python_WKN
+go to folder ->E:\Python_WKN
 cmd
 Jupyter Notebook
 New->Terminal
 git clone https://github.com/shaikhsaba903/LB_DSC_PY_AUG_WKND_09082020.git
 
 
-go to folder
+go to folder ->E:\Python_WKN
 open GitBash
 ls -al (will see readme file)
 
@@ -30,9 +30,14 @@ cd ..
 git status (untracked files)
 
 
-git add. (push changes local to stagging)
-git commit 
-git push
+git add . (push changes local to stagging)
+git commit -m "comment like pushing file"
+
+git pull origin master
+git push -f origin master
+--------------------------------------------------------------------------------------
 
 ls->to list all files and folder in the terminal
 pwd->present working directory
+
+git config --global user.name "YourName" and git config --global user.email "Youremailid"
