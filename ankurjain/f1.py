@@ -1,7 +1,5 @@
 a=10
-b=10
-c=10
-d=20
-if x=10
-Print x
-
+b=20
+c=a+b
+print(a)
+print(b)
