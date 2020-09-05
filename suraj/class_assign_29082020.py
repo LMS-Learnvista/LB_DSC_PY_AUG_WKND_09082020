@@ -34,10 +34,5 @@ print("\n")
 rows=4
 k=6
 for i in range(4):
-    for j in range(k): 
-        print(' ',end='')
-    k-=1
-    for m in range(i+1):
-        print(' * ',end='')
-    print()
-
+    i+=1
+    print(' '*(k-i) + '* '*i)
