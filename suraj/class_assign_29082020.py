@@ -31,8 +31,11 @@ for i in range(4):
 #######################################
 print("#### Assignment No 3 loop way ####")
 print("\n")
-rows=4
 k=6
 for i in range(4):
     i+=1
     print(' '*(k-i) + '* '*i)
+<<<<<<< HEAD
+=======
+
+>>>>>>> ad2f84f9458eb371cca9b11420559df1d0d01e86
